@@ -6,8 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "simple-salesforce",  # Inclua todas as dependências necessárias
-        "pandas",
-        "time"
+        "pandas"
     ],
     authosr="António Moura Coutinho, Tales Ferreira, Rui Martinho",
     author_email="tonitrigueiros@gmail.com",
