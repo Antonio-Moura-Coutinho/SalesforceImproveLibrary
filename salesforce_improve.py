@@ -1,5 +1,4 @@
 import logging
-import time
 import pandas as pd
 from simple_salesforce import Salesforce, SalesforceMalformedRequest, SalesforceGeneralError, \
     SalesforceMoreThanOneRecord, SalesforceExpiredSession, SalesforceRefusedRequest, SalesforceResourceNotFound
