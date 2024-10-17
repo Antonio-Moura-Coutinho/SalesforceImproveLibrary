@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="salesforce-improve",  # Nome do pacote
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     install_requires=[
         "simple-salesforce",  # Inclua todas as dependências necessárias
