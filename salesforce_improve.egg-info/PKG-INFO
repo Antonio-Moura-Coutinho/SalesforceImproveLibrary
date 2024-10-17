@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: salesforce-improve
+Version: 0.1
+Summary: A Salesforce integration helper library
+Home-page: https://github.com/Antonio-Moura-Coutinho/SalesforceImproveLibrary
+Author-email: tonitrigueiros@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: simple-salesforce
+Requires-Dist: pandas
+Requires-Dist: time
+
+# Salesforce Improve Library
+
+The **Salesforce Improve Library** is a Python package designed to simplify interactions with Salesforce using the `simple-salesforce` library. This library provides helpful functions for managing bulk operations, logging API interactions, and handling errors gracefully, making it easier to work with Salesforce data in bulk or at the record level.
+
+## Features
+
+- **Bulk Operations**: Easily perform bulk read, insert, update, upsert, and delete operations.
+- **Error Logging**: Automatically logs errors or failed records from Salesforce operations.
+- **API Call Logging**: Supports logging API calls, capturing the success or failure of each call.
+- **Single Record Operations**: Handle individual Salesforce object operations (insert, update, read, delete).
+
+## Installation
+
+You can install the library via pip:
+
+```bash
+pip install salesforce-improve
