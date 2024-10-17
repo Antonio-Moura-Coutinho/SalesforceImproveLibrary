@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: salesforce-improve
-Version: 0.1
+Version: 0.2
 Summary: A Salesforce integration helper library
 Home-page: https://github.com/Antonio-Moura-Coutinho/SalesforceImproveLibrary
 Author-email: tonitrigueiros@gmail.com
@@ -11,7 +11,6 @@ Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: simple-salesforce
 Requires-Dist: pandas
-Requires-Dist: time
 
 # Salesforce Improve Library
 
